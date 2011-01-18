@@ -1,6 +1,15 @@
 var overlays = new Array;
 var info = "";
 
+function expandInfo(){
+	document.getElementById('extra').style.display = "none";
+	all_info = document.getElementsByTagName('dl');
+	for (i=0;i<all_info.length;i++){
+		this_info = all_info[i];
+		this_info.style.display = "block";
+	}
+}
+
 function clearOverlays(){
 	for (i=0;i<overlays.length;i++){
 		overlays[i].setMap(null);
@@ -87,10 +96,9 @@ function displayBike(bike){
 	}
 }
 
-function showGMap()
-	{
+function showGMap(){
 	var coords = coordsToLatLng(529377.55,177853.07);
-	
+
 	var latlng = new google.maps.LatLng(coords.lat, coords.lng);
 	var mapOptions = 
 		{
@@ -100,13 +108,4 @@ function showGMap()
 		mapTypeId: google.maps.MapTypeId.ROADMAP
 		};
 	map = new google.maps.Map(document.getElementById("map_canvas"),mapOptions);
-	}
-
-function expandInfo(){
-	document.getElementById('extra').style.display = "none";
-	all_info = document.getElementsByTagName('dl');
-	for (i=0;i<all_info.length;i++){
-		this_info = all_info[i];
-		this_info.style.display = "block";
-	}
 }

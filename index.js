@@ -70,7 +70,7 @@ function Bike(){
 	this.addStop = function addStopIfUnique(point){
 							if (this.stop_ids.indexOf(point[0]) == -1){
 								this.stop_ids.push(point[0]);
-								this.stops[point[0]] = [point[1],point[2], point[3],1]
+								this.stops[point[0]] = [point[1],point[2], point[3],1];
 							}
 							else
 								this.stops[point[0]][3] ++;

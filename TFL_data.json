@@ -4117,29 +4117,6 @@
   "start_date": "2010-07-30"
  }, 
  {
-  "end_station_id": "133", 
-  "end_date": "2010-07-30", 
-  "start_time": "07:35", 
-  "end_station": {
-   "y": "179597.82", 
-   "x": "525626.45", 
-   "name": "Derry Street, Kensington", 
-   "max_docks": "18"
-  }, 
-  "journey_id": "2909", 
-  "start_station_id": "124", 
-  "duration": "2312", 
-  "end_time": "08:14", 
-  "bike_id": "12", 
-  "start_station": {
-   "y": "179132.12", 
-   "x": "528454.85", 
-   "name": "Eaton Square, Belgravia", 
-   "max_docks": "21"
-  }, 
-  "start_date": "2010-07-30"
- },
- {
   "end_station_id": "14", 
   "end_date": "2010-07-30", 
   "start_time": "07:35", 

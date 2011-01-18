@@ -1,7 +1,7 @@
-html { height: 100%;}
-body { height: 100%; margin: 0px; padding: 0px; }
-#map_canvas { height: 100%; width: 100%; }
-#bike_searcher { position: absolute; z-index: 10000; width: 225px; left: 100px; top: 10px; background: white; background: rgba(255,255,255,0.8); padding: 10px; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; border: 5px solid #06318C; font-size: 12px; max-height: 700px; overflow: auto;}
+html {height: 100%;}
+body {height: 100%; margin: 0px; padding: 0px; font-size: 10px;}
+#map_canvas {height: 100%; width: 100%; }
+#bike_searcher {position: absolute; z-index: 10000; width: 225px; left: 100px; top: 10px; background: white; background: rgba(255,255,255,0.8); padding: 10px; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; border: 5px solid #06318C; font-size: 12px; max-height: 700px; overflow: auto;}
 dd, dt { float: left; width: 100px; margin: 3px 0;}
 dt, .clear {clear: both; text-align: right; font-weight: 800; margin-right: 5px;}
 p {text-align: center;}
