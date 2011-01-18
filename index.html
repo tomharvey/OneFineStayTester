@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>One Fine Stay - Mash Up</title>
+	<link rel="stylesheet" media="all" href="index.css" type="text/css" />
+	<script src="views.js" type="text/javascript"></script>
+	<script src="coords.js" type="text/javascript"></script>
+	<script src="index.js" type="text/javascript"></script>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<link REL="SHORTCUT ICON" HREF="favicon.ico">
+</head>
+<body>
+	<form id="bike_searcher" onsubmit="return false"><!-- return false needed here here because of a bug in the addEvent js handler -->
+		<img src="barclays-cycle-hire-logo.png" />
+		<input type="search" id="bikeId" />
+		<input type="submit" value="search"/>
+		<div id="journey_info"></div>
+	</form>
+	<div id="map_canvas"></div>
+</body>
+</html>
