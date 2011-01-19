@@ -56,7 +56,7 @@ function drawJourneys(journeys){
 		var journey = journeys[i];
 		
 		info += "<dl>"
-		info += "<dt>Start</dt><dd>"+journey.startPoint[3]+"</dd>";
+		info += "<span class='journeyNo'>"+getGetOrdinal(i+1)+" Journey</span><dt>Start</dt><dd>"+journey.startPoint[3]+"</dd>";
 		info += "<dt>Finish</dt><dd>"+journey.endPoint[3]+"</dd>";
 		info += "<dt>Duration</dt><dd>"+getHumanDuration(journey.duration)+"</dd>";
 		info += "<span class='clear'></span>"
